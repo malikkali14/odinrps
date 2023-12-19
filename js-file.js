@@ -28,7 +28,7 @@ btn.addEventListener('click', function (e) {
     console.log(e.target);
   });
 
-btn.addEventListener('click', function (e) {
+btn.addEventListener('click', e => {
     e.target.style.background = 'blue';
   });
 
